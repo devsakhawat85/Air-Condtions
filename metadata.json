@@ -1,0 +1,6 @@
+{
+  "name": "Rooted Collective — Grow With Ro",
+  "description": "Editorial fitness, mindset and growth coaching by Ro. Strength training, nutrition, relationships and sustainable habits for women.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

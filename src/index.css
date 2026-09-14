@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-cream: #FAF7F2;
+    --color-offwhite: #F4EFEB;
+    --color-sand: #EAE3DC;
+    --color-espresso: #201C19;
+    --color-espresso-muted: #6B625B;
+    --color-terracotta: #BA5A3A;
+    --color-terracotta-dark: #9E492D;
+    --color-blush: #EADFD7;
+    --color-sage: #6E7864;
+    --color-border-subtle: rgba(32, 28, 25, 0.1);
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #FAF7F2;
+    color: #201C19;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-serif-editorial {
+    font-family: 'Cormorant Garamond', Garamond, Georgia, serif;
+    letter-spacing: -0.015em;
+  }
+
+  .font-italic-accent {
+    font-family: 'Newsreader', 'Cormorant Garamond', Georgia, serif;
+    font-style: italic;
+  }
+}
+
+/* Custom editorial micro-details */
+.editorial-rule {
+  border-color: rgba(32, 28, 25, 0.12);
+}
+
+.editorial-rule-dashed {
+  border-style: dashed;
+  border-color: rgba(32, 28, 25, 0.15);
+}
+
+.text-stroke-subtle {
+  -webkit-text-stroke: 1px rgba(32, 28, 25, 0.35);
+  color: transparent;
+}
+
+/* Custom scrollbar for horizontal containers */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
